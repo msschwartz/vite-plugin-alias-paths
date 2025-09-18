@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "types": ["node"],
+    "outDir": "dist",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "declaration": true
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules", "dist"]
+}

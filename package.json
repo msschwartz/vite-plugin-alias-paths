@@ -1,0 +1,16 @@
+{
+  "name": "vite-plugin-alias-paths",
+  "version": "1.0.0",
+  "description": "Support for path aliases that work like TypeScript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.7.2",
+    "vite": "^7.1.5"
+  }
+}
