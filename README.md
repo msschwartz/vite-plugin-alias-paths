@@ -23,4 +23,4 @@ export default defineConfig({
 
 ### Why not just use `vite-tsconfig-paths`?
 
-`vite-tsconfig-paths` is great if you just want Vite to automatically mirror whatever’s in your `tsconfig.json`. But it has one big limitation: **it only looks at the root `tsconfig`, not at how aliases should behave inside shared or nested packages.**
+`vite-tsconfig-paths` has one big limitation: **it does not work the same way as TypeScript. Shared or nested packages ignore project config.**
