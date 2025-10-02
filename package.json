@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-alias-paths",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Support for path aliases that work like TypeScript.",
   "main": "dist/index.js",
   "scripts": {
