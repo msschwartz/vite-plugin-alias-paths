@@ -12,5 +12,6 @@
     "@types/node": "^24.5.2",
     "typescript": "^5.7.2",
     "vite": "^7.1.5"
-  }
+  },
+  "repository": "https://github.com/msschwartz/vite-plugin-alias-paths"
 }
