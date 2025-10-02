@@ -1,10 +1,10 @@
-### `aliasPaths` Vite Plugin  
+### `aliasPaths` Vite Plugin
 
-This plugin lets you define path aliases in Vite that behave just like TypeScript’s `paths` option in `tsconfig.json`.  
+This plugin lets you define path aliases in Vite that behave just like TypeScript’s `paths` option in `tsconfig.json`.
 
 It intercepts module resolution and rewrites imports based on your alias mappings, trying each candidate path until it finds a match. This allows setups where shared modules can optionally be replaced by local project-specific implementations.
 
-#### Example  
+#### Example
 
 ```ts
 // vite.config.ts
@@ -23,4 +23,4 @@ export default defineConfig({
 
 ### Why not just use `vite-tsconfig-paths`?
 
-`vite-tsconfig-paths` has one big limitation: **it does not work the same way as TypeScript because shared or nested packages ignore the project aliases**
+One key limitation of `vite-tsconfig-paths` is that it does not fully align with TypeScript’s behavior: project aliases are not respected in shared or nested packages.
