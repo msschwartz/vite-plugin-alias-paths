@@ -26,7 +26,6 @@ jobs:
           git config --local user.email 'github-actions[bot]@users.noreply.github.com'
           npm version patch -m "[skip ci] increment version"
           git push
-
       - run: npm ci
       - run: npm run prepare
       - run: npm publish
