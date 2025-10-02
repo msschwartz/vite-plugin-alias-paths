@@ -28,7 +28,6 @@ jobs:
           npm version patch -m "[skip ci] increment version"
           git push
       - run: npm ci
-      - run: npm run prepare
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
