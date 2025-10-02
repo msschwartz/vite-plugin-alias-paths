@@ -23,4 +23,4 @@ export default defineConfig({
 
 ### Why not just use `vite-tsconfig-paths`?
 
-`vite-tsconfig-paths` has one big limitation: **it does not work the same way as TypeScript. Shared or nested packages ignore project config.**
+`vite-tsconfig-paths` has one big limitation: **it does not work the same way as TypeScript, shared or nested packages ignore the project aliases.**
